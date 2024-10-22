@@ -6,7 +6,7 @@ pub mod destination;
 pub mod error;
 pub mod executable;
 mod executable_file_installer;
-mod file;
+pub mod file;
 mod install;
 mod result;
 mod tar_archive_installer;
